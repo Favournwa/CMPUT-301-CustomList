@@ -29,7 +29,7 @@ public class CustomListTest {
     public void hasCityTest(){
         City city = new City("Charlottetown", "Prince Edward Island");
 
-        list.add(city);
+        list.addCity(city);
         assertTrue(list.hasCity(city));
     }
 }
